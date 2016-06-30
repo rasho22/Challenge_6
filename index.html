@@ -10,9 +10,21 @@
 <section>
 <!--1ère div-->
 	<div class="col-md-4 h ">
-		<button id="bouton"> Frozen Experiment's Bakery</button>
-		<div id="affichage">Cookies 0</div>
-		</div>
+		 <button>Frozen Experiment's Bakery</button>
+
+		<button id="multiplicateur"  onclick="incrementer()"> Compteur de click
+		<div id="compteur"> 1 </div> </button>
+
+		<div class=clickcookie>
+        <button id="bouton"><div id="affichage" id="compteur"> 0 </div> 
+        <p>Cookies</p>
+        </div></button>
+        <!--image du cookie-->
+		<div class="cookie">
+        <img src="images/cookie.png" alt="cookie" onclick="clicker()" />                
+    	</div>
+
+	</div>
 <!--div du milieu-->
 	<div class="col-md-5 h divmilieu">
 	<!--div du milieu le haut-->
@@ -52,8 +64,37 @@
 </body>
  <script type="text/javascript">
  var bouton
- var affichage
- var score = 0
+ var multiplicateur 
+
+
+//fontion + 1 en cliquant
+        function clicker() {
+            var bouton = document.getElementById("affichage");
+            var score = bouton.innerHTML;
+            score++;
+            bouton.innerHTML = score;
+
+if (score==10) {
+	document.getElementById('clicker').
+	innerHTML=scores
+}
+            var multiplicateur = document.getElementById("affichage");
+            var scores = multiplicateur.innerHTML;
+            scores++;
+            multiplicateur.innerHTML = scores + 1;
+        };
+
+
+
+
 
 </script>
+
+        <!--function incrementer() {
+        	var multiplicateur = document.getElementById("compteur");
+        	var scores = multiplicateur.innerHTML;
+        	scores++;
+        	multiplicateur.innerHTML = scores + 1;-->
+
+        };
 </html>
