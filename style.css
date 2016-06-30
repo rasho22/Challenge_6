@@ -1,0 +1,40 @@
+.h {
+	height: 100vh;
+	padding: 0px !important;
+	background-image: url(background.jpeg);
+}
+
+/*div 1ère*/
+
+
+
+
+/*div du milieu*/
+.divmilieu {
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 0 10px 0 10px;
+}
+
+		/*div du milieu haut*/
+.milieuhaut {
+	height: 150px;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+}
+
+/*div 3ème*/
+
+
+.haut3{
+	height: 50px
+}
+
+.milieu3{
+	height: 60px;
+	border-style: solid;
+	border-color: black;
+	border-width: 10px 0 10px 0;
+}
+
