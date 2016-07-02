@@ -2,99 +2,29 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Exercice 3</title>
+  <title>test challenge 6</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-<section>
-<!--1ère div-->
-	<div class="col-md-4 h ">
-		 <button>Frozen Experiment's Bakery</button>
+<section></section>
 
-		<button id="multiplicateur"  onclick="incrementer()"> Compteur de click
-		<div id="compteur"> 1 </div> </button>
+		
+		<!--div score-->
+		<div class=score id="score">
+        0</div>
 
-		<div class=clickcookie>
-        <button id="bouton"><div id="affichage" id="compteur"> 0 </div> 
-        <p>Cookies</p>
-        </div></button>
         <!--image du cookie-->
-		<div class="cookie">
-        <img src="images/cookie.png" alt="cookie" onclick="clicker()" />                
-    	</div>
+        <img src="images/cookie.png" id="cookie" class= "cookie"alt="cookie" onclick="clicker() setInterval()" />                
+    	
 
-	</div>
-<!--div du milieu-->
-	<div class="col-md-5 h divmilieu">
-	<!--div du milieu le haut-->
-		<div class="milieuhaut">
-			<div classe="col-md-1">
-				<button> Options</button> </br>
-				<button> Stats</button>
-			</div>
-			<div classe="col-md-2">
-				<h5>Your Family accept to try </br>some of your cookies</h5>
-			</div>
-			<div classe="col-md-1">
-				<button> Info</button></br>
-				<button> Legacy</button>
-			</div>
-		</div>
-	<!--div du milieu le bas-->
-	<div>
-		BOOUUU
-	</div>
-	</div>
-<!--3ème div-->
-	<div class="col-md-3 h">
-	<!--3ème div haut partie 1-->
-		<div class="haut3">
-			STORE
-		</div>
-	<!--3ème div haut partie 2-->
-		<div class="milieu3">
-			Blablou
-		</div>
-		<!--3ème div haut partie 3-->
-	</div>
-</section>
-
-
-</body>
- <script type="text/javascript">
- var bouton
- var multiplicateur 
-
-
-//fontion + 1 en cliquant
-        function clicker() {
-            var bouton = document.getElementById("affichage");
-            var score = bouton.innerHTML;
-            score++;
-            bouton.innerHTML = score;
-
-if (score<=10) {
-	document.getElementById('clicker').
-	innerHTML=scores
-}
-            var multiplicateur = document.getElementById("affichage");
-            var scores = multiplicateur.innerHTML;
-            scores++;
-            multiplicateur.innerHTML = scores + 1;
-        };
+		<!--bouton multiplicateur-->
+		<button id="multiplicateur"  onclick="incrementer()"> Multiplicateur x 1
+		</button>
+		<p id="prix">Prix 5</p>
 
 
 
-
-
-</script>
-
-        <!--function incrementer() {
-        	var multiplicateur = document.getElementById("compteur");
-        	var scores = multiplicateur.innerHTML;
-        	scores++;
-        	multiplicateur.innerHTML = scores + 1;-->
-
-        };
+</body>      
 </html>
