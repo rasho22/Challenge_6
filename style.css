@@ -1,40 +1,37 @@
 .h {
-	height: 100vh;
+	height: 700px;
 	padding: 0px !important;
 	background-image: url(images/background.jpeg);
 }
 
-/*div 1ère*/
-
-
-
-
-/*div du milieu*/
-.divmilieu {
-	
-	border-style: solid;
-	border-color: black;
-	border-width: 0 10px 0 10px;
+.score{
+	color : white;
+	font-size: 35px;
+	text-align: center;
 }
 
-		/*div du milieu haut*/
-.milieuhaut {
-	height: 150px;
-	border-bottom-style: solid;
-	border-bottom-width: 10px;
+.score{
+	margin: 0 auto;
+}
+.cookie {
+	margin: 0 auto !important;
+	height: 50%;
+	width: 30%;
 }
 
-/*div 3ème*/
-
-
-.haut3{
-	height: 50px
+.cookie:active{
+	margin: 0 auto !important;
+	height: 55%;
+	width: 35%;
 }
 
-.milieu3{
-	height: 60px;
-	border-style: solid;
-	border-color: black;
-	border-width: 10px 0 10px 0;
+button {
+	margin-left: 570px !important;
+
 }
 
+p{
+	color : white;
+	font-size: 35px;
+	text-align: center;
+}

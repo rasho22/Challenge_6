@@ -8,23 +8,24 @@
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-<section></section>
+<section class="h">
 
 		
 		<!--div score-->
-		<div class=score id="score">
-        0</div>
+		<div class="score col-md-12" id="score">
+        Point 0</div>
 
         <!--image du cookie-->
-        <img src="images/cookie.png" id="cookie" class= "cookie"alt="cookie" onclick="clicker() setInterval()" />                
+        <img src="images/monsieurcookie.png" id="cookie" class= "cookie"alt="cookie" onclick="clicker()" />                
     	
 
 		<!--bouton multiplicateur-->
-		<button id="multiplicateur"  onclick="incrementer()"> Multiplicateur x 1
+    <div class="col-md-12">
+		<button classe = "center-block" id="multiplicateur"  onclick="incrementer()"> Multiplicateur x 1
 		</button>
 		<p id="prix">Prix 5</p>
-
-
+    </div>
+</section>
 
 </body>      
 </html>
